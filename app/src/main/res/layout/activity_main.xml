@@ -11,12 +11,14 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_marginTop="10dp"
-        android:id="@+id/imageview"/>
+        android:id="@+id/imageview"
+        android:background="@color/SkyBlue"/>
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_marginTop="10dp"
-        android:id="@+id/labelview"/>
+        android:id="@+id/labelview"
+        android:background="@color/SkyBlue"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -28,12 +30,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/select"/>
+            android:text="@string/select"
+            android:background="@drawable/button_bg"/>
         <Button
             android:id="@+id/btn_run"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/run"/>
+            android:text="@string/run"
+            android:background="@drawable/button_bg"
+            android:layout_marginLeft="5dp"/>
     </LinearLayout>
 </LinearLayout>
