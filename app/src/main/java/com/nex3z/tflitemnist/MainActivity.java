@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     private Bitmap selectImageBitmap=null;
     public final int Height = 769;
     public final int Width = 769;
-    private final int[] virtualLabel = new int[Height*Width];
+//    private final int[] virtualLabel = new int[Height*Width];
     private int[][] resultArray = new int[Height][Width];
     public final int[][] labelColor = {{128, 64, 128}, {232, 35, 244}, {70, 70, 70}, {156, 102, 102}, {153, 153, 190},
             {30, 170, 250}, {0, 220, 220}, {35, 142, 107}, {152, 251, 152}, {180, 130, 70}, {60, 20, 220}, {0, 0, 255},
